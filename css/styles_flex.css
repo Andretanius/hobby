@@ -1,0 +1,85 @@
+/* Стили для flexbox galery*/
+.main_flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  /* min-width: 1000px; */
+  margin: 20px auto;
+  justify-content: center;
+  -ms-align-items: stretch;
+  align-items: stretch;
+  align-content: stretch;
+  flex-flow: row wrap;
+  background-color: #F0FAFE;
+}
+.image {
+  margin: 10px;
+  flex: 1 1 300px;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  border: none;
+}
+
+.image img {
+  width: auto;
+  height: auto;
+}
+
+.bl {
+  padding: 10px ;
+  background: #fefefe;
+  border-radius: 3px;
+  margin: 20px;
+  flex: 1 1 200px;
+  text-align: center; 
+  display: flex;
+  flex-flow: row wrap;
+}
+/* 
+.fl1{flex:  1 50%;}
+.fl2{flex:  1 50%;}
+.fl3{flex:  1 50%;}
+.fl4{flex:  1 50%;}
+.fl5{flex:  1 50%;}
+.fl6{flex:  1 50%;} */
+/* .fl7{flex: 1 1 20%;}
+.fl8{flex: 1 1 20%;}
+.fl9{flex: 1 1 20%;}
+.fl10{flex: 1 1 20%;}
+.fl11{flex: 1 1 20%;}
+.fl12{flex: 1 1 20%;}
+.fl13{flex: 1 1 20%;}
+.fl14{flex: 1 1 20%;}
+.fl15{flex: 1 1 20%;}
+.fl16{flex: 1 1 20%;} */
+
+h3 {
+  color: #406cd0;
+  margin: 0 10px 0 0;
+  font-style: 1.1em;
+}
+
+a.button {
+  background: #FF7C0A;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 2px;
+  text-decoration: none;
+  -webkit-transition: prop time;
+  -o-transition: prop time;
+  transition: prop time 0.3s;
+}
+
+a.button:hover {
+  background: #FFA837;
+}
+
+.text {
+  margin: 10px;
+  flex: 1 1 150px;
+}
